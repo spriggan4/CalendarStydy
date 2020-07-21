@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import java.util.*
 
+
+//todo 일단 잠시 배제
 class CalendarAdapter(calendarList: List<Any>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private val HEADER_TYPE: Int = 0
     private val EMPTY_TYPE: Int = 1
